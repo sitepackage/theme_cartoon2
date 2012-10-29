@@ -1045,6 +1045,7 @@ form .hint_area {
 }
 #product .image {
 	float: left;
+  width: 242px;
 }
 #product .details {
 	float: right;
@@ -1109,6 +1110,7 @@ form .hint_area {
     height: 240px;
     background: #fff no-repeat center center;
     border:1px solid #eaeaea;
+    margin:0 0 10px 0;
     display: block;
 }
 #product .textbox {
@@ -1148,12 +1150,12 @@ form .hint_area {
 	color:#539bb4;
 	font-weight:bold;
 }
-#product .extra_images {
-	padding: 0 0 10px 0;
+#product .extra_images{
+  width:242px;
 }
 #product .extra_images ul {
 	padding: 0;
-	margin: 20px 0;
+	margin: 0;
 	list-style: none;
 }
 #product .extra_images li {
@@ -1164,8 +1166,11 @@ form .hint_area {
 	width:50px;
 	height:50px;
 	background: #fff no-repeat center center;
-    margin: 5px 10px 5px 0;
-    border: 1px solid #eaeaea;
+  margin: 0 11px 10px 0;
+  border: 1px solid #eaeaea;
+}
+#product .extra_images .last div {
+    margin: 0 0px 10px 0;
 }
 #product .buy {
     float: left;
